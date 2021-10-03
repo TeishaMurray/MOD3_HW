@@ -12,9 +12,9 @@ public class MOD3_Wk1_Hw3 {
 		
 		Scanner scan = new Scanner(System.in);
 
-			System.out.println("Type '+' to add, '-' to subtract, '*' to multiply or '/' to divide."); 
-			System.out.println("Type your first number.");
-			System.out.println("Then type your second number");
+			System.out.println("Type '+' to add, '-' to subtract, '*' to multiply or '/' to divide. Then hit Enter."); 
+			System.out.println("Next type your first number, then hit Enter.");
+			System.out.println("Finally, type your second number, then hit Enter");
 			
 			operation = scan.nextLine();
 			userInput1 = scan.nextDouble();
