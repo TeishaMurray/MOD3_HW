@@ -22,16 +22,36 @@ public class MOD3_Wk1_Hw3 {
 					
 			switch(operation) {
 			case "+":
-				System.out.println(userInput1 + userInput2);
+				if((userInput1 >=1 && userInput1 <=5) && (userInput2 >=1 && userInput2 <=5)){
+					System.out.println(userInput1 + userInput2);
+				}
+				else {
+					System.out.println("Invalid Entry, Try Again.");
+				}
 				break;
 			case "-":
-				System.out.println(userInput1 - userInput2);
+				if((userInput1 >=1 && userInput1 <=5) && (userInput2 >=1 && userInput2 <=5)){
+					System.out.println(userInput1 - userInput2);
+				}
+				else {
+					System.out.println("Invalid Entry, Try Again.");
+				}
 				break;
 			case "*":
-				System.out.println(userInput1 * userInput2);
+				if((userInput1 >=1 && userInput1 <=5) && (userInput2 >=1 && userInput2 <=5)){
+					System.out.println(userInput1 * userInput2);
+				}
+				else {
+					System.out.println("Invalid Entry, Try Again.");
+				}
 				break;
 			case "/":
-				System.out.println(userInput1 / userInput2);
+				if((userInput1 >=1 && userInput1 <=5) && (userInput2 >=1 && userInput2 <=5)){
+					System.out.println(userInput1 / userInput2);
+				}
+				else {
+					System.out.println("Invalid Entry, Try Again.");
+				}
 				break;
 			default:
 				System.out.println("Something went wrong, please try again.");
